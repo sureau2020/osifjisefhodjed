@@ -1,0 +1,30 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 2022年9月24日, 下午12:47:07
+    Author     : 56308
+*/
+
+body{
+    margin: auto;
+    background-color: black;
+}
+
+.ouButton{
+     align-items:center;
+     text-align: center;
+     margin-top: 300px;
+}
+
+.combienfois{
+    color:white;
+    align-items:center;
+     text-align: center;
+     margin-top: 40px;
+}
+
+
+    
+

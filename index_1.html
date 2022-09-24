@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link href="./newcss_1.css" rel="stylesheet">
+         <title>殴打数学</title>    
+         
+    </head>
+    <body>
+        
+        
+        <div class="ouButton">
+            <button type="button" onclick="btnAction()">殴打数学</button>
+        </div>
+        
+        <div class = "combienfois">
+            <p>数学今天被你殴打了<span id="hitNumber">0</span>次。</p>
+        </div>
+        
+        <script>
+        var i = 0;
+        function btnAction(){
+                    i++;
+                    document.getElementById("hitNumber").innerHTML = i;
+                }
+        
+        </script>
+        
+        <div>
+            
+        </div>
+        
+    </body>
+</html>
